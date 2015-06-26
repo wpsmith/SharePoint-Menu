@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a07bd3ca-313c-4ec5-a64e-cdb7bbb5ac73" solutionId="a07bd3ca-313c-4ec5-a64e-cdb7bbb5ac73" resetWebServer="false" sharePointProductVersion="15.0" name="iVision.Branding" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="70f231af-7e17-44a4-a16c-55b3df4acec5" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="1753412e-149a-48f5-b692-6b24d02a2b94" />
+    <projectItemReference itemId="b09eac88-90d8-47be-aba6-514849e80cfe" />
+  </projectItems>
+</package>

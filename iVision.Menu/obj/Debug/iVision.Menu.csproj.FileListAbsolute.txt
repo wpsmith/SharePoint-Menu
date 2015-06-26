@@ -1,0 +1,4 @@
+c:\users\sharepoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Menu\bin\Debug\iVision.Menu.dll
+c:\users\sharepoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Menu\bin\Debug\iVision.Menu.pdb
+c:\users\sharepoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Menu\obj\Debug\iVision.Menu.dll
+c:\users\sharepoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Menu\obj\Debug\iVision.Menu.pdb

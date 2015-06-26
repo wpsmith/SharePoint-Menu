@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="c6417421-2f8a-4480-85ff-ecb9da095bc9" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="iVision.Menu.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="ControlTemplates\iVision.Menu\GlobalMenu.ascx" />
+  </TemplateFiles>
+</Solution>

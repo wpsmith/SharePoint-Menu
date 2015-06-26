@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iVision.Menu", "iVision.Menu\iVision.Menu.csproj", "{197084D2-E370-4723-A574-43772BB76674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iVision.Branding", "iVision.Branding\iVision.Branding.csproj", "{3DA503DA-6BE0-481E-91B1-01088C00945E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{197084D2-E370-4723-A574-43772BB76674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197084D2-E370-4723-A574-43772BB76674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197084D2-E370-4723-A574-43772BB76674}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{197084D2-E370-4723-A574-43772BB76674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197084D2-E370-4723-A574-43772BB76674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197084D2-E370-4723-A574-43772BB76674}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3DA503DA-6BE0-481E-91B1-01088C00945E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA503DA-6BE0-481E-91B1-01088C00945E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA503DA-6BE0-481E-91B1-01088C00945E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3DA503DA-6BE0-481E-91B1-01088C00945E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA503DA-6BE0-481E-91B1-01088C00945E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA503DA-6BE0-481E-91B1-01088C00945E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

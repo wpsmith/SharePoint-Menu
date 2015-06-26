@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DA503DA-6BE0-481E-91B1-01088C00945E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iVision.Branding</RootNamespace>
+    <AssemblyName>iVision.Branding</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Portal.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\iVision.Branding\Scripts.ascx.cs">
+      <DependentUpon>Scripts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\iVision.Branding\Scripts.ascx.designer.cs">
+      <DependentUpon>Scripts.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\SiteBranding\SiteBranding.EventReceiver.cs">
+      <DependentUpon>SiteBranding.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b09eac88-90d8-47be-aba6-514849e80cfe}</SharePointProjectItemId>
+    </None>
+    <None Include="FeatureElements\MasterPages\Templates\team.master" />
+    <None Include="FeatureElements\Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f67dd6bc-ad50-4314-82da-dbfafcebb1e3}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\SiteBranding\SiteBranding.feature">
+      <FeatureId>{70f231af-7e17-44a4-a16c-55b3df4acec5}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\iVision.Branding\css\bootstrap-theme.css.map" />
+    <None Include="Layouts\iVision.Branding\css\bootstrap.css.map" />
+    <None Include="Layouts\iVision.Branding\fonts\fontawesome-webfont.eot" />
+    <None Include="Layouts\iVision.Branding\fonts\fontawesome-webfont.ttf" />
+    <None Include="Layouts\iVision.Branding\fonts\fontawesome-webfont.woff" />
+    <None Include="Layouts\iVision.Branding\fonts\fontawesome-webfont.woff2" />
+    <None Include="Layouts\iVision.Branding\fonts\FontAwesome.otf" />
+    <None Include="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Layouts\iVision.Branding\js\jquery-1.11.3.min.map" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1753412e-149a-48f5-b692-6b24d02a2b94}</SharePointProjectItemId>
+    </None>
+    <None Include="FeatureElements\MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2f49e5f1-7b61-46ba-aab2-72cbbd3e48b4}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FeatureElements\MasterPages\Templates\main.master" />
+    <None Include="Package\Package.package">
+      <PackageId>{a07bd3ca-313c-4ec5-a64e-cdb7bbb5ac73}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlTemplates\iVision.Branding\Scripts.ascx" />
+    <Content Include="FeatureElements\Scripts\Elements.xml" />
+    <Content Include="Features\SiteBranding\SiteBranding.Template.xml">
+      <DependentUpon>SiteBranding.feature</DependentUpon>
+    </Content>
+    <Content Include="FeatureElements\MasterPages\Elements.xml" />
+    <Content Include="Layouts\iVision.Branding\css\bootstrap-theme.css" />
+    <Content Include="Layouts\iVision.Branding\css\bootstrap-theme.min.css" />
+    <Content Include="Layouts\iVision.Branding\css\bootstrap.css" />
+    <Content Include="Layouts\iVision.Branding\css\bootstrap.min.css" />
+    <Content Include="Layouts\iVision.Branding\css\font-awesome.css" />
+    <Content Include="Layouts\iVision.Branding\css\font-awesome.min.css" />
+    <Content Include="Layouts\iVision.Branding\fonts\fontawesome-webfont.svg" />
+    <Content Include="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\iVision.Branding\js\bootstrap.js" />
+    <Content Include="Layouts\iVision.Branding\js\bootstrap.min.js" />
+    <Content Include="Layouts\iVision.Branding\js\jquery.js" />
+    <Content Include="Layouts\iVision.Branding\js\jquery.min.js" />
+    <Content Include="Layouts\iVision.Branding\js\npm.js" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

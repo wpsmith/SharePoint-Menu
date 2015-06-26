@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c6417421-2f8a-4480-85ff-ecb9da095bc9" solutionId="c6417421-2f8a-4480-85ff-ecb9da095bc9" resetWebServer="false" sharePointProductVersion="15.0" name="iVision.Menu" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="2b4e47f8-12cf-4aba-aaf3-84d048ca6a92" />
+  </projectItems>
+</package>

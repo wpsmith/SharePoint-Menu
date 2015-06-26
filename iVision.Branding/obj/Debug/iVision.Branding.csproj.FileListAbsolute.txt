@@ -1,0 +1,4 @@
+C:\Users\SharePoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Branding\bin\Debug\iVision.Branding.dll
+C:\Users\SharePoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Branding\bin\Debug\iVision.Branding.pdb
+C:\Users\SharePoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Branding\obj\Debug\iVision.Branding.dll
+C:\Users\SharePoint\documents\visual studio 2013\Projects\iVision.Menu\iVision.Branding\obj\Debug\iVision.Branding.pdb

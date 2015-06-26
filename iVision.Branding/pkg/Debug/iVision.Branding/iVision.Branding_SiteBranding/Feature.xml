@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="4e2aea6e-25f9-4137-805a-f8217da53447" ReceiverAssembly="iVision.Branding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b1735e825d69a63" ReceiverClass="iVision.Branding.Features.SiteBranding.SiteBrandingEventReceiver" Scope="Web" Title="iVision - Site Branding">
+  <ElementManifests>
+    <ElementManifest Location="MasterPages\Elements.xml" />
+    <ElementFile Location="MasterPages\Templates\main.master" />
+    <ElementFile Location="MasterPages\Templates\team.master" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+  </ElementManifests>
+</Feature>

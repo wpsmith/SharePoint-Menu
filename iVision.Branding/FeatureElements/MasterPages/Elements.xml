@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPages" Path="MasterPages\Templates" Url="_catalogs/masterpage" RootWebOnly="FALSE">
+    <File Path="main.master" Url="main.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="My Main"/>
+      <Property Name="Version" Value="1.2.3.3"/>
+      <Property Name="MasterPageDescription"
+                Value="My Main Master Page (English)"/>
+      <Property Name="ContentType"
+                Value="$Resources:cmscore,contenttype_masterpage_name;" />
+    </File>
+    <File Path="team.master" Url="team.master">
+      <Property Name="Title" Value="My Team"/>
+      <Property Name="Version" Value="1.0.0.0"/>
+      <Property Name="MasterPageDescription"
+                Value="My Team Master Page (English)"/>
+      <Property Name="ContentType"
+                Value="$Resources:cmscore,contenttype_masterpage_name;" />
+    </File>
+  </Module>
+</Elements>

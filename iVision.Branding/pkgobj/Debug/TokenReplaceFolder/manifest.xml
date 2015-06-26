@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="a07bd3ca-313c-4ec5-a64e-cdb7bbb5ac73" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="iVision.Branding.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\iVision.Branding\css\bootstrap-theme.css.map" />
+    <TemplateFile Location="Layouts\iVision.Branding\css\bootstrap.css.map" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\fontawesome-webfont.eot" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\fontawesome-webfont.ttf" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\fontawesome-webfont.woff" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\fontawesome-webfont.woff2" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\FontAwesome.otf" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.eot" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.ttf" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.woff" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.woff2" />
+    <TemplateFile Location="Layouts\iVision.Branding\js\jquery-1.11.3.min.map" />
+    <TemplateFile Location="Layouts\iVision.Branding\css\bootstrap-theme.css" />
+    <TemplateFile Location="Layouts\iVision.Branding\css\bootstrap-theme.min.css" />
+    <TemplateFile Location="Layouts\iVision.Branding\css\bootstrap.css" />
+    <TemplateFile Location="Layouts\iVision.Branding\css\bootstrap.min.css" />
+    <TemplateFile Location="Layouts\iVision.Branding\css\font-awesome.css" />
+    <TemplateFile Location="Layouts\iVision.Branding\css\font-awesome.min.css" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\fontawesome-webfont.svg" />
+    <TemplateFile Location="Layouts\iVision.Branding\fonts\glyphicons-halflings-regular.svg" />
+    <TemplateFile Location="Layouts\iVision.Branding\js\bootstrap.js" />
+    <TemplateFile Location="Layouts\iVision.Branding\js\bootstrap.min.js" />
+    <TemplateFile Location="Layouts\iVision.Branding\js\jquery.js" />
+    <TemplateFile Location="Layouts\iVision.Branding\js\jquery.min.js" />
+    <TemplateFile Location="Layouts\iVision.Branding\js\npm.js" />
+    <TemplateFile Location="ControlTemplates\iVision.Branding\Scripts.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="iVision.Branding_SiteBranding\Feature.xml" />
+  </FeatureManifests>
+</Solution>
